@@ -1,0 +1,44 @@
+.back-con {
+    min-height: 70vh;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+}
+
+
+.header-con{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 60px;
+    position: sticky;
+    top: 2rem;
+    align-items: flex-start;
+    z-index: 10;
+}
+
+
+.h1-con{
+    font-size: 90px;
+    color: #ffea44;
+    text-transform: uppercase;
+}
+
+.btm-con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.ptags{
+    font-size: 20px;
+    color: white;
+    width: 400px;
+}
+

@@ -1,0 +1,8 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #e6accf;
+   overflow-x: hidden;
+    box-sizing: border-box;
+}

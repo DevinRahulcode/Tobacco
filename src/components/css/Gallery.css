@@ -1,0 +1,59 @@
+
+
+.sticky-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.ptag{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family:Apple Chancery, cursive ;
+    font-weight: lighter;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.gbtn{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.scroll-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.scroll-con img {
+    height: 300px; /* Same height for all images */
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional: give each image a subtle offset for a randomized feel */
+.Imgs1 { transform: rotate(-2deg); }
+.Imgs2 { transform: rotate(1.5deg); }
+.Imgs3 { transform: rotate(-1deg); }
+.Imgs4 { transform: rotate(2.5deg); }
+.Imgs5 { transform: rotate(-1.8deg); }
+.Imgs6 { transform: rotate(1deg); }
+.Imgs7 { transform: rotate(-0.5deg); }
+
+.scroll-con img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
